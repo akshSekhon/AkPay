@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1C5D884F-A798-44A6-B63A-412005A31169"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28C1E68E-44E6-47A0-92FE-5C84C018A6AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TruliPay/Second StoryBoard Controllers/Domestic Bank MoneySend/DomesticBankSendingMoney_VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "dropDownButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E38581-6B0A-4664-BD82-4D01F3AC9281"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TruliPay/Second StoryBoard Controllers/ScanQR Send Money/SendMoneyQRScanner_VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "scannerView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D20D0B3-8E96-4893-B832-9DB43F77F829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TruliPay/Second StoryBoard Controllers/ScanQR Send Money/SendMoneyQRScanner_VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "SendMoneyQRScanner_VC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9D20D0B3-8E96-4893-B832-9DB43F77F829 - 95ccd55a355c3e4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TruliPay.SendMoneyQRScanner_VC.captureSession.getter : __C.AVCaptureSession"
+                  moduleName = "TruliPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/NitinData/NitinProject/Projects/TruliPay/Code/TruliPay%20/TruliPay/Second%20StoryBoard%20Controllers/ScanQR%20Send%20Money/SendMoneyQRScanner_VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "9D20D0B3-8E96-4893-B832-9DB43F77F829 - ce9c43e18ea04b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TruliPay.SendMoneyQRScanner_VC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TruliPay.SendMoneyQRScanner_VC"
+                  moduleName = "TruliPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/NitinData/NitinProject/Projects/TruliPay/Code/TruliPay%20/TruliPay/Second%20StoryBoard%20Controllers/ScanQR%20Send%20Money/SendMoneyQRScanner_VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "9D20D0B3-8E96-4893-B832-9DB43F77F829 - b46c4b2cc2a896b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TruliPay.SendMoneyQRScanner_VC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TruliPay.SendMoneyQRScanner_VC&gt;"
+                  moduleName = "TruliPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/NitinData/NitinProject/Projects/TruliPay/Code/TruliPay%20/TruliPay/Second%20StoryBoard%20Controllers/ScanQR%20Send%20Money/SendMoneyQRScanner_VC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "241">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6E1BE48-A649-4948-9E12-D9450A707884"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TruliPay/Main Storyboard Controllers/Login_VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "setActions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EACBFA9C-71E4-4CAD-80F3-AA2678B69F4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TruliPay/Main Storyboard Controllers/Login_VC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "setActions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

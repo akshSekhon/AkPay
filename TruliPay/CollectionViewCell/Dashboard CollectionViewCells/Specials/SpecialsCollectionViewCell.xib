@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SpecialsCollectionViewCell" id="gTV-IL-0wX" customClass="SpecialsCollectionViewCell" customModule="TruliPay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="124"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nen-82-Nls">
+                        <rect key="frame" x="0.0" y="5" width="216" height="114"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xkB-vc-27p">
+                                <rect key="frame" x="0.0" y="0.0" width="216" height="114"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadious">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="xkB-vc-27p" secondAttribute="bottom" id="9lO-2a-UeF"/>
+                            <constraint firstItem="xkB-vc-27p" firstAttribute="top" secondItem="nen-82-Nls" secondAttribute="top" id="UKA-cT-DQo"/>
+                            <constraint firstAttribute="trailing" secondItem="xkB-vc-27p" secondAttribute="trailing" id="esb-07-dKI"/>
+                            <constraint firstItem="xkB-vc-27p" firstAttribute="leading" secondItem="nen-82-Nls" secondAttribute="leading" id="l2v-rG-4uX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadious">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="nen-82-Nls" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3RG-GF-Ype"/>
+                <constraint firstAttribute="bottom" secondItem="nen-82-Nls" secondAttribute="bottom" constant="5" id="KIl-3u-y42"/>
+                <constraint firstItem="nen-82-Nls" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Swx-G5-v89"/>
+                <constraint firstAttribute="trailing" secondItem="nen-82-Nls" secondAttribute="trailing" id="bWD-WU-RfT"/>
+            </constraints>
+            <size key="customSize" width="216" height="124"/>
+            <connections>
+                <outlet property="baseView" destination="nen-82-Nls" id="T9K-I1-z3g"/>
+                <outlet property="speclImgView" destination="xkB-vc-27p" id="jBg-OP-Kjf"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="69.642857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

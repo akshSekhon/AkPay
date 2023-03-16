@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E4C4E28115F010000047D /* PaymentSucessPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180E4C4D28115F000000047D /* PaymentSucessPopup.xib */; };
+		184ADA8027FDBA0C00EC1802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADA7F27FDBA0C00EC1802 /* AppDelegate.swift */; };
+		184ADA8227FDBA0C00EC1802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADA8127FDBA0C00EC1802 /* SceneDelegate.swift */; };
+		184ADA8427FDBA0C00EC1802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADA8327FDBA0C00EC1802 /* ViewController.swift */; };
+		184ADA8727FDBA0C00EC1802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ADA8527FDBA0C00EC1802 /* Main.storyboard */; };
+		184ADA8927FDBA0F00EC1802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184ADA8827FDBA0F00EC1802 /* Assets.xcassets */; };
+		184ADA8C27FDBA0F00EC1802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ADA8A27FDBA0F00EC1802 /* LaunchScreen.storyboard */; };
+		184ADA9727FDBA0F00EC1802 /* TruliPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADA9627FDBA0F00EC1802 /* TruliPayTests.swift */; };
+		184ADAA127FDBA0F00EC1802 /* TruliPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADAA027FDBA0F00EC1802 /* TruliPayUITests.swift */; };
+		184ADAA327FDBA0F00EC1802 /* TruliPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ADAA227FDBA0F00EC1802 /* TruliPayUITestsLaunchTests.swift */; };
+		18C4732627FFFAFE009C7E25 /* Login_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732227FFFAFD009C7E25 /* Login_VC.swift */; };
+		18C4732727FFFAFE009C7E25 /* MVC_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732327FFFAFD009C7E25 /* MVC_VC.swift */; };
+		18C4732827FFFAFE009C7E25 /* CompleteProfile_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732427FFFAFD009C7E25 /* CompleteProfile_VC.swift */; };
+		18C4732E27FFFB16009C7E25 /* ShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732B27FFFB16009C7E25 /* ShadowExtension.swift */; };
+		18C4732F27FFFB16009C7E25 /* Segment Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732C27FFFB16009C7E25 /* Segment Controller.swift */; };
+		18C4733027FFFB16009C7E25 /* ExtenssionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4732D27FFFB16009C7E25 /* ExtenssionViewController.swift */; };
+		18C47338280000DB009C7E25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47337280000DB009C7E25 /* Constants.swift */; };
+		18C4733F280003E4009C7E25 /* LocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4733E280003E4009C7E25 /* LocalStore.swift */; };
+		18C4734728000B28009C7E25 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C4734628000B28009C7E25 /* SecondStoryboard.storyboard */; };
+		18C4734928000BC8009C7E25 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4734828000BC7009C7E25 /* DashboardViewController.swift */; };
+		18C4734B28000FA9009C7E25 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4734A28000FA9009C7E25 /* UIViewExtension.swift */; };
+		18C4734D28001029009C7E25 /* ClosureSleeve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4734C28001029009C7E25 /* ClosureSleeve.swift */; };
+		18C4734F280010E2009C7E25 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4734E280010E2009C7E25 /* UIViewControllerExtension.swift */; };
+		18CC7D792805564100F5431B /* SendMoneyMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC7D782805564100F5431B /* SendMoneyMethodsViewController.swift */; };
+		18CC7D7A280557C700F5431B /* AbstractController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4733528000041009C7E25 /* AbstractController.swift */; };
+		18CC7D7B280557E300F5431B /* AbstractTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4733428000041009C7E25 /* AbstractTblCell.swift */; };
+		18CC7D7C280557E600F5431B /* AbstractCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4733628000041009C7E25 /* AbstractCollectionCell.swift */; };
+		18CC7D7E2805584100F5431B /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC7D7D2805584100F5431B /* UIApplicationExtension.swift */; };
+		18CC7D82280558FE00F5431B /* SendMoneyMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC7D80280558FE00F5431B /* SendMoneyMethodTableViewCell.swift */; };
+		18CC7D83280558FE00F5431B /* SendMoneyMethodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CC7D81280558FE00F5431B /* SendMoneyMethodTableViewCell.xib */; };
+		75074A6A280AF4DD006E884C /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75074A69280AF4DD006E884C /* NavigationExtension.swift */; };
+		750C8C11280D48AC00422DD9 /* CompleteKYCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4734128000542009C7E25 /* CompleteKYCView.swift */; };
+		750C8C12280D48BC00422DD9 /* CompleteKYCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4734228000542009C7E25 /* CompleteKYCView.xib */; };
+		750C8C14280D65E500422DD9 /* SkipKYCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C8C13280D65E500422DD9 /* SkipKYCView.swift */; };
+		750C8C16280D660500422DD9 /* SkipKYCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 750C8C15280D660500422DD9 /* SkipKYCView.xib */; };
+		751E2108280ED88900253840 /* phoneVerified_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E2107280ED88900253840 /* phoneVerified_VC.swift */; };
+		752C165F2805953900DDF562 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16542805953900DDF562 /* Lato-Italic.ttf */; };
+		752C16602805953900DDF562 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16552805953900DDF562 /* Lato-LightItalic.ttf */; };
+		752C16612805953900DDF562 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16562805953900DDF562 /* Lato-Thin.ttf */; };
+		752C16622805953900DDF562 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16572805953900DDF562 /* Lato-Bold.ttf */; };
+		752C16632805953900DDF562 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16582805953900DDF562 /* Lato-Black.ttf */; };
+		752C16642805953900DDF562 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C16592805953900DDF562 /* Lato-Regular.ttf */; };
+		752C16652805953900DDF562 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C165A2805953900DDF562 /* Lato-BlackItalic.ttf */; };
+		752C16662805953900DDF562 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 752C165B2805953900DDF562 /* OFL.txt */; };
+		752C16672805953900DDF562 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C165C2805953900DDF562 /* Lato-BoldItalic.ttf */; };
+		752C16682805953900DDF562 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C165D2805953900DDF562 /* Lato-Light.ttf */; };
+		752C16692805953900DDF562 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752C165E2805953900DDF562 /* Lato-ThinItalic.ttf */; };
+		753758F028084A460068484D /* CellRegisterExtenssions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753758EF28084A460068484D /* CellRegisterExtenssions.swift */; };
+		753758F2280861E90068484D /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753758F1280861E90068484D /* CollectionViewFlowLayout.swift */; };
+		754582222801B8F900B8A8D0 /* TextfieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754582212801B8F900B8A8D0 /* TextfieldExtensions.swift */; };
+		7561116D2806962800E01D96 /* DomesticBankSendingMoney_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561116C2806962700E01D96 /* DomesticBankSendingMoney_VC.swift */; };
+		758259922807C7CE00A9ECF2 /* ForgotMPIN_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758259912807C7CE00A9ECF2 /* ForgotMPIN_VC.swift */; };
+		758259942807C7E700A9ECF2 /* Settings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758259932807C7E700A9ECF2 /* Settings_VC.swift */; };
+		758259962807C8FE00A9ECF2 /* Notifications_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758259952807C8FE00A9ECF2 /* Notifications_VC.swift */; };
+		758259992807CA2100A9ECF2 /* NotificationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758259972807CA2100A9ECF2 /* NotificationTableCell.swift */; };
+		7582599A2807CA2100A9ECF2 /* NotificationTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758259982807CA2100A9ECF2 /* NotificationTableCell.xib */; };
+		7582599C2807E7ED00A9ECF2 /* TransactionHistory_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7582599B2807E7ED00A9ECF2 /* TransactionHistory_VC.swift */; };
+		7582599F2807E8B300A9ECF2 /* TransictionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7582599D2807E8B200A9ECF2 /* TransictionTableCell.swift */; };
+		758259A02807E8B300A9ECF2 /* TransictionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7582599E2807E8B200A9ECF2 /* TransictionTableCell.xib */; };
+		7585AA1C2801867000E868C9 /* languageSelection_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585AA1B2801867000E868C9 /* languageSelection_VC.swift */; };
+		758ED07E2806E1A10051B1E4 /* SendMoneyQRScanner_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ED07D2806E1A10051B1E4 /* SendMoneyQRScanner_VC.swift */; };
+		758ED0802806E9EC0051B1E4 /* ReferandEarn_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ED07F2806E9EC0051B1E4 /* ReferandEarn_VC.swift */; };
+		758ED0822806EB5B0051B1E4 /* Rateing_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ED0812806EB5B0051B1E4 /* Rateing_VC.swift */; };
+		7597EDC1280E5BC1006EF55F /* PaymentSucessPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597EDC0280E5BC1006EF55F /* PaymentSucessPopup.swift */; };
+		7597EDC3280E5BCD006EF55F /* PaymentSucessPopup7.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7597EDC2280E5BCD006EF55F /* PaymentSucessPopup7.xib */; };
+		7599761D2806ABB6001E5180 /* AddSelfie_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599761C2806ABB6001E5180 /* AddSelfie_VC.swift */; };
+		7599761F2806ADFF001E5180 /* MasterCard_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599761E2806ADFF001E5180 /* MasterCard_VC.swift */; };
+		75A0970B280914EA00B91CCC /* SideMenue_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A0970A280914EA00B91CCC /* SideMenue_VC.swift */; };
+		75A09711280924BE00B91CCC /* MoneyRecivedDone_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A09710280924BE00B91CCC /* MoneyRecivedDone_VC.swift */; };
+		75A097152809399800B91CCC /* sideMenueTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A097132809399800B91CCC /* sideMenueTableCell.swift */; };
+		75A097162809399800B91CCC /* sideMenueTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A097142809399800B91CCC /* sideMenueTableCell.xib */; };
+		75A097192809419A00B91CCC /* ConfirmAddress_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A097182809419A00B91CCC /* ConfirmAddress_VC.swift */; };
+		75A243C62805769300E416A4 /* SemiCirleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A243C52805769300E416A4 /* SemiCirleView.swift */; };
+		75A6CB192805A01800B57277 /* MyappsCollectonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6CB172805A01800B57277 /* MyappsCollectonCell.swift */; };
+		75A6CB1A2805A01800B57277 /* MyappsCollectonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A6CB182805A01800B57277 /* MyappsCollectonCell.xib */; };
+		75A6CB1E2805A09100B57277 /* SpecialsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6CB1C2805A09100B57277 /* SpecialsCollectionViewCell.swift */; };
+		75A6CB1F2805A09100B57277 /* SpecialsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A6CB1D2805A09100B57277 /* SpecialsCollectionViewCell.xib */; };
+		75A6CB272805B14C00B57277 /* MyVallet_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6CB262805B14C00B57277 /* MyVallet_VC.swift */; };
+		75A6CB292805B1CA00B57277 /* RecivedMoneyMyVallet_Vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6CB282805B1CA00B57277 /* RecivedMoneyMyVallet_Vc.swift */; };
+		75ACA3D52806C284005D5C98 /* OtherWalletSendMoneyTo_EnterAmount_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA3D42806C284005D5C98 /* OtherWalletSendMoneyTo_EnterAmount_VC.swift */; };
+		75ACA3D82806CB87005D5C98 /* OtherWaletMobileNumber_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA3D72806CB87005D5C98 /* OtherWaletMobileNumber_VC.swift */; };
+		75ACA3DA2806CE06005D5C98 /* OtherWalletSellectedContact_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA3D92806CE06005D5C98 /* OtherWalletSellectedContact_VC.swift */; };
+		75ACA3DD2806D0F0005D5C98 /* DomesticMPIN_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA3DC2806D0F0005D5C98 /* DomesticMPIN_VC.swift */; };
+		75ACA3DF2806D50E005D5C98 /* SendingMoneyReciversDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA3DE2806D50E005D5C98 /* SendingMoneyReciversDetailVC.swift */; };
+		75B4A6A12807F0CE00F73B0E /* ReciveMonewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4A69F2807F0CE00F73B0E /* ReciveMonewTableCell.swift */; };
+		75B4A6A22807F0CE00F73B0E /* ReciveMonewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4A6A02807F0CE00F73B0E /* ReciveMonewTableCell.xib */; };
+		75B4A6A52807F8C300F73B0E /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4A6A42807F8C200F73B0E /* FAQViewController.swift */; };
+		75B4A6AE2808064100F73B0E /* FaqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B4A6AD2808064100F73B0E /* FaqTableViewCell.xib */; };
+		75B4A6B02808065100F73B0E /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4A6AF2808065100F73B0E /* FaqTableViewCell.swift */; };
+		75B579762800647E00079758 /* CompleteProfile_addressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B579752800647E00079758 /* CompleteProfile_addressVC.swift */; };
+		75B57978280064A700079758 /* CompleteProfile_mpinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B57977280064A700079758 /* CompleteProfile_mpinVC.swift */; };
+		75B5797A28006C3500079758 /* MPINkeys_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5797928006C3500079758 /* MPINkeys_VC.swift */; };
+		75C7CE81280FAF9500A310D0 /* ContactFeching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7CE80280FAF9500A310D0 /* ContactFeching.swift */; };
+		75D3A36328067450000A50B3 /* SendMoneyToDetails_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3A36228067450000A50B3 /* SendMoneyToDetails_VC.swift */; };
+		75D3A365280674B8000A50B3 /* SendMoneyAmmount_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3A364280674B8000A50B3 /* SendMoneyAmmount_VC.swift */; };
+		75D3A367280674DC000A50B3 /* SendAmountMpin_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3A366280674DC000A50B3 /* SendAmountMpin_VC.swift */; };
+		75D3A36A28067AAC000A50B3 /* Dashes On View Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3A36928067AAC000A50B3 /* Dashes On View Border.swift */; };
+		75E88465280DAAA8002ED4E1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E88464280DAAA8002ED4E1 /* ButtonView.swift */; };
+		75E88467280DAACB002ED4E1 /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E88466280DAACB002ED4E1 /* ButtonView.xib */; };
+		75EC7A282806821500756BD5 /* UpdateKYC_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC7A272806821500756BD5 /* UpdateKYC_VC.swift */; };
+		ACB252D374526151849B2E72 /* Pods_TruliPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89AFC7A86236CCA5152BDE1 /* Pods_TruliPayTests.framework */; };
+		B323FE7A2803EE8E006CF0E5 /* TutorialCollection_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323FE792803EE8E006CF0E5 /* TutorialCollection_VC.swift */; };
+		B323FE7C2803EF59006CF0E5 /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323FE7B2803EF58006CF0E5 /* TutorialCollectionViewCell.swift */; };
+		B323FE7E2803EF60006CF0E5 /* TutorialCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B323FE7D2803EF60006CF0E5 /* TutorialCollectionViewCell.xib */; };
+		B90B4442A17AEE666A0285D9 /* Pods_TruliPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95C278D520381BB4FF91DB8 /* Pods_TruliPay.framework */; };
+		CAC1A8F57F3E3A340880E846 /* Pods_TruliPay_TruliPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EFC93F7FF649720976218D /* Pods_TruliPay_TruliPayUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184ADA9327FDBA0F00EC1802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184ADA7427FDBA0C00EC1802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184ADA7B27FDBA0C00EC1802;
+			remoteInfo = TruliPay;
+		};
+		184ADA9D27FDBA0F00EC1802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184ADA7427FDBA0C00EC1802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184ADA7B27FDBA0C00EC1802;
+			remoteInfo = TruliPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180E4C4D28115F000000047D /* PaymentSucessPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentSucessPopup.xib; sourceTree = "<group>"; };
+		184ADA7C27FDBA0C00EC1802 /* TruliPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruliPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ADA7F27FDBA0C00EC1802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184ADA8127FDBA0C00EC1802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184ADA8327FDBA0C00EC1802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184ADA8627FDBA0C00EC1802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184ADA8827FDBA0F00EC1802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184ADA8B27FDBA0F00EC1802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184ADA8D27FDBA0F00EC1802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184ADA9227FDBA0F00EC1802 /* TruliPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruliPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ADA9627FDBA0F00EC1802 /* TruliPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliPayTests.swift; sourceTree = "<group>"; };
+		184ADA9C27FDBA0F00EC1802 /* TruliPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruliPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ADAA027FDBA0F00EC1802 /* TruliPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliPayUITests.swift; sourceTree = "<group>"; };
+		184ADAA227FDBA0F00EC1802 /* TruliPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18C4732227FFFAFD009C7E25 /* Login_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_VC.swift; sourceTree = "<group>"; };
+		18C4732327FFFAFD009C7E25 /* MVC_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVC_VC.swift; sourceTree = "<group>"; };
+		18C4732427FFFAFD009C7E25 /* CompleteProfile_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteProfile_VC.swift; sourceTree = "<group>"; };
+		18C4732B27FFFB16009C7E25 /* ShadowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowExtension.swift; sourceTree = "<group>"; };
+		18C4732C27FFFB16009C7E25 /* Segment Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Segment Controller.swift"; sourceTree = "<group>"; };
+		18C4732D27FFFB16009C7E25 /* ExtenssionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtenssionViewController.swift; sourceTree = "<group>"; };
+		18C4733428000041009C7E25 /* AbstractTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractTblCell.swift; sourceTree = "<group>"; };
+		18C4733528000041009C7E25 /* AbstractController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractController.swift; sourceTree = "<group>"; };
+		18C4733628000041009C7E25 /* AbstractCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractCollectionCell.swift; sourceTree = "<group>"; };
+		18C47337280000DB009C7E25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18C4733E280003E4009C7E25 /* LocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStore.swift; sourceTree = "<group>"; };
+		18C4734128000542009C7E25 /* CompleteKYCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteKYCView.swift; sourceTree = "<group>"; };
+		18C4734228000542009C7E25 /* CompleteKYCView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteKYCView.xib; sourceTree = "<group>"; };
+		18C4734428000908009C7E25 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		18C4734628000B28009C7E25 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		18C4734828000BC7009C7E25 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		18C4734A28000FA9009C7E25 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		18C4734C28001029009C7E25 /* ClosureSleeve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSleeve.swift; sourceTree = "<group>"; };
+		18C4734E280010E2009C7E25 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		18CC7D782805564100F5431B /* SendMoneyMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyMethodsViewController.swift; sourceTree = "<group>"; };
+		18CC7D7D2805584100F5431B /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		18CC7D80280558FE00F5431B /* SendMoneyMethodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyMethodTableViewCell.swift; sourceTree = "<group>"; };
+		18CC7D81280558FE00F5431B /* SendMoneyMethodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyMethodTableViewCell.xib; sourceTree = "<group>"; };
+		73EFC93F7FF649720976218D /* Pods_TruliPay_TruliPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruliPay_TruliPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748D1D17266AADA39C6062DD /* Pods-TruliPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPay.release.xcconfig"; path = "Target Support Files/Pods-TruliPay/Pods-TruliPay.release.xcconfig"; sourceTree = "<group>"; };
+		75074A69280AF4DD006E884C /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		750C8C13280D65E500422DD9 /* SkipKYCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipKYCView.swift; sourceTree = "<group>"; };
+		750C8C15280D660500422DD9 /* SkipKYCView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkipKYCView.xib; sourceTree = "<group>"; };
+		751E2107280ED88900253840 /* phoneVerified_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneVerified_VC.swift; sourceTree = "<group>"; };
+		752C16542805953900DDF562 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		752C16552805953900DDF562 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		752C16562805953900DDF562 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		752C16572805953900DDF562 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		752C16582805953900DDF562 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		752C16592805953900DDF562 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		752C165A2805953900DDF562 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		752C165B2805953900DDF562 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		752C165C2805953900DDF562 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		752C165D2805953900DDF562 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		752C165E2805953900DDF562 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		753758EF28084A460068484D /* CellRegisterExtenssions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegisterExtenssions.swift; sourceTree = "<group>"; };
+		753758F1280861E90068484D /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		754582212801B8F900B8A8D0 /* TextfieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExtensions.swift; sourceTree = "<group>"; };
+		7561116C2806962700E01D96 /* DomesticBankSendingMoney_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticBankSendingMoney_VC.swift; sourceTree = "<group>"; };
+		758259912807C7CE00A9ECF2 /* ForgotMPIN_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotMPIN_VC.swift; sourceTree = "<group>"; };
+		758259932807C7E700A9ECF2 /* Settings_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_VC.swift; sourceTree = "<group>"; };
+		758259952807C8FE00A9ECF2 /* Notifications_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications_VC.swift; sourceTree = "<group>"; };
+		758259972807CA2100A9ECF2 /* NotificationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableCell.swift; sourceTree = "<group>"; };
+		758259982807CA2100A9ECF2 /* NotificationTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableCell.xib; sourceTree = "<group>"; };
+		7582599B2807E7ED00A9ECF2 /* TransactionHistory_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory_VC.swift; sourceTree = "<group>"; };
+		7582599D2807E8B200A9ECF2 /* TransictionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransictionTableCell.swift; sourceTree = "<group>"; };
+		7582599E2807E8B200A9ECF2 /* TransictionTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransictionTableCell.xib; sourceTree = "<group>"; };
+		7585AA1B2801867000E868C9 /* languageSelection_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageSelection_VC.swift; sourceTree = "<group>"; };
+		758ED07D2806E1A10051B1E4 /* SendMoneyQRScanner_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyQRScanner_VC.swift; sourceTree = "<group>"; };
+		758ED07F2806E9EC0051B1E4 /* ReferandEarn_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferandEarn_VC.swift; sourceTree = "<group>"; };
+		758ED0812806EB5B0051B1E4 /* Rateing_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rateing_VC.swift; sourceTree = "<group>"; };
+		7597EDC0280E5BC1006EF55F /* PaymentSucessPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSucessPopup.swift; sourceTree = "<group>"; };
+		7597EDC2280E5BCD006EF55F /* PaymentSucessPopup7.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentSucessPopup7.xib; sourceTree = "<group>"; };
+		7599761C2806ABB6001E5180 /* AddSelfie_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSelfie_VC.swift; sourceTree = "<group>"; };
+		7599761E2806ADFF001E5180 /* MasterCard_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCard_VC.swift; sourceTree = "<group>"; };
+		75A0970A280914EA00B91CCC /* SideMenue_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenue_VC.swift; sourceTree = "<group>"; };
+		75A09710280924BE00B91CCC /* MoneyRecivedDone_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRecivedDone_VC.swift; sourceTree = "<group>"; };
+		75A097132809399800B91CCC /* sideMenueTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenueTableCell.swift; sourceTree = "<group>"; };
+		75A097142809399800B91CCC /* sideMenueTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sideMenueTableCell.xib; sourceTree = "<group>"; };
+		75A097182809419A00B91CCC /* ConfirmAddress_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAddress_VC.swift; sourceTree = "<group>"; };
+		75A243C52805769300E416A4 /* SemiCirleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiCirleView.swift; sourceTree = "<group>"; };
+		75A6CB172805A01800B57277 /* MyappsCollectonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyappsCollectonCell.swift; sourceTree = "<group>"; };
+		75A6CB182805A01800B57277 /* MyappsCollectonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyappsCollectonCell.xib; sourceTree = "<group>"; };
+		75A6CB1C2805A09100B57277 /* SpecialsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsCollectionViewCell.swift; sourceTree = "<group>"; };
+		75A6CB1D2805A09100B57277 /* SpecialsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialsCollectionViewCell.xib; sourceTree = "<group>"; };
+		75A6CB262805B14C00B57277 /* MyVallet_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVallet_VC.swift; sourceTree = "<group>"; };
+		75A6CB282805B1CA00B57277 /* RecivedMoneyMyVallet_Vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecivedMoneyMyVallet_Vc.swift; sourceTree = "<group>"; };
+		75ACA3D42806C284005D5C98 /* OtherWalletSendMoneyTo_EnterAmount_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherWalletSendMoneyTo_EnterAmount_VC.swift; sourceTree = "<group>"; };
+		75ACA3D72806CB87005D5C98 /* OtherWaletMobileNumber_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherWaletMobileNumber_VC.swift; sourceTree = "<group>"; };
+		75ACA3D92806CE06005D5C98 /* OtherWalletSellectedContact_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherWalletSellectedContact_VC.swift; sourceTree = "<group>"; };
+		75ACA3DC2806D0F0005D5C98 /* DomesticMPIN_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticMPIN_VC.swift; sourceTree = "<group>"; };
+		75ACA3DE2806D50E005D5C98 /* SendingMoneyReciversDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingMoneyReciversDetailVC.swift; sourceTree = "<group>"; };
+		75B4A69F2807F0CE00F73B0E /* ReciveMonewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciveMonewTableCell.swift; sourceTree = "<group>"; };
+		75B4A6A02807F0CE00F73B0E /* ReciveMonewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciveMonewTableCell.xib; sourceTree = "<group>"; };
+		75B4A6A42807F8C200F73B0E /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		75B4A6AD2808064100F73B0E /* FaqTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaqTableViewCell.xib; sourceTree = "<group>"; };
+		75B4A6AF2808065100F73B0E /* FaqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
+		75B579752800647E00079758 /* CompleteProfile_addressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfile_addressVC.swift; sourceTree = "<group>"; };
+		75B57977280064A700079758 /* CompleteProfile_mpinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfile_mpinVC.swift; sourceTree = "<group>"; };
+		75B5797928006C3500079758 /* MPINkeys_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPINkeys_VC.swift; sourceTree = "<group>"; };
+		75C7CE80280FAF9500A310D0 /* ContactFeching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFeching.swift; sourceTree = "<group>"; };
+		75D3A36228067450000A50B3 /* SendMoneyToDetails_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyToDetails_VC.swift; sourceTree = "<group>"; };
+		75D3A364280674B8000A50B3 /* SendMoneyAmmount_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyAmmount_VC.swift; sourceTree = "<group>"; };
+		75D3A366280674DC000A50B3 /* SendAmountMpin_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAmountMpin_VC.swift; sourceTree = "<group>"; };
+		75D3A36928067AAC000A50B3 /* Dashes On View Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashes On View Border.swift"; sourceTree = "<group>"; };
+		75E88464280DAAA8002ED4E1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		75E88466280DAACB002ED4E1 /* ButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		75EC7A272806821500756BD5 /* UpdateKYC_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateKYC_VC.swift; sourceTree = "<group>"; };
+		A5E4882E3AA7D6DF8CFA6690 /* Pods-TruliPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPayTests.debug.xcconfig"; path = "Target Support Files/Pods-TruliPayTests/Pods-TruliPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B323FE792803EE8E006CF0E5 /* TutorialCollection_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollection_VC.swift; sourceTree = "<group>"; };
+		B323FE7B2803EF58006CF0E5 /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		B323FE7D2803EF60006CF0E5 /* TutorialCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialCollectionViewCell.xib; sourceTree = "<group>"; };
+		C74FF8C7429FBD9C7AF2920B /* Pods-TruliPay-TruliPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPay-TruliPayUITests.release.xcconfig"; path = "Target Support Files/Pods-TruliPay-TruliPayUITests/Pods-TruliPay-TruliPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C76673DAF8589F8F79A88EAF /* Pods-TruliPay-TruliPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPay-TruliPayUITests.debug.xcconfig"; path = "Target Support Files/Pods-TruliPay-TruliPayUITests/Pods-TruliPay-TruliPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C89AFC7A86236CCA5152BDE1 /* Pods_TruliPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruliPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF57A9B60248757C8F4296 /* Pods-TruliPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPay.debug.xcconfig"; path = "Target Support Files/Pods-TruliPay/Pods-TruliPay.debug.xcconfig"; sourceTree = "<group>"; };
+		E95C278D520381BB4FF91DB8 /* Pods_TruliPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruliPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E782E1665803F0093844D7 /* Pods-TruliPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruliPayTests.release.xcconfig"; path = "Target Support Files/Pods-TruliPayTests/Pods-TruliPayTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184ADA7927FDBA0C00EC1802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90B4442A17AEE666A0285D9 /* Pods_TruliPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA8F27FDBA0F00EC1802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB252D374526151849B2E72 /* Pods_TruliPayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA9927FDBA0F00EC1802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC1A8F57F3E3A340880E846 /* Pods_TruliPay_TruliPayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184ADA7327FDBA0C00EC1802 = {
+			isa = PBXGroup;
+			children = (
+				184ADA7E27FDBA0C00EC1802 /* TruliPay */,
+				184ADA9527FDBA0F00EC1802 /* TruliPayTests */,
+				184ADA9F27FDBA0F00EC1802 /* TruliPayUITests */,
+				184ADA7D27FDBA0C00EC1802 /* Products */,
+				9C779E01C8FD585A773DD18C /* Pods */,
+				F88EB9CFC0983ED1DEFE6613 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184ADA7D27FDBA0C00EC1802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184ADA7C27FDBA0C00EC1802 /* TruliPay.app */,
+				184ADA9227FDBA0F00EC1802 /* TruliPayTests.xctest */,
+				184ADA9C27FDBA0F00EC1802 /* TruliPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184ADA7E27FDBA0C00EC1802 /* TruliPay */ = {
+			isa = PBXGroup;
+			children = (
+				184ADA7F27FDBA0C00EC1802 /* AppDelegate.swift */,
+				184ADA8127FDBA0C00EC1802 /* SceneDelegate.swift */,
+				184ADA8327FDBA0C00EC1802 /* ViewController.swift */,
+				752C16532805953900DDF562 /* App Fonts */,
+				18C4733A2800033D009C7E25 /* Models */,
+				18C4734528000A74009C7E25 /* PopupViews */,
+				18C4733B2800034A009C7E25 /* ViewModels */,
+				18C4732127FFFAFD009C7E25 /* Main Storyboard Controllers */,
+				75C62BF328053F8000788507 /* Second StoryBoard Controllers */,
+				18CC7D7F280558A300F5431B /* UITableVIewCells */,
+				75A6CB1628059F9700B57277 /* CollectionViewCell */,
+				18C47339280000EB009C7E25 /* Strings */,
+				18C4733C28000364009C7E25 /* Storyboards */,
+				18C4733328000041009C7E25 /* Abstract Controller */,
+				18C4732A27FFFB16009C7E25 /* EXTENSSIONS */,
+				18C4733D280003C9009C7E25 /* LocalStore */,
+				184ADA8827FDBA0F00EC1802 /* Assets.xcassets */,
+				184ADA8A27FDBA0F00EC1802 /* LaunchScreen.storyboard */,
+				18C4734328000908009C7E25 /* WebServices */,
+				184ADA8D27FDBA0F00EC1802 /* Info.plist */,
+			);
+			path = TruliPay;
+			sourceTree = "<group>";
+		};
+		184ADA9527FDBA0F00EC1802 /* TruliPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				184ADA9627FDBA0F00EC1802 /* TruliPayTests.swift */,
+			);
+			path = TruliPayTests;
+			sourceTree = "<group>";
+		};
+		184ADA9F27FDBA0F00EC1802 /* TruliPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184ADAA027FDBA0F00EC1802 /* TruliPayUITests.swift */,
+				184ADAA227FDBA0F00EC1802 /* TruliPayUITestsLaunchTests.swift */,
+			);
+			path = TruliPayUITests;
+			sourceTree = "<group>";
+		};
+		18C4732127FFFAFD009C7E25 /* Main Storyboard Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75C1000828016672003AF150 /* Tutorial_VC */,
+				18C4732227FFFAFD009C7E25 /* Login_VC.swift */,
+				751E2107280ED88900253840 /* phoneVerified_VC.swift */,
+				18C4732327FFFAFD009C7E25 /* MVC_VC.swift */,
+				18C4732427FFFAFD009C7E25 /* CompleteProfile_VC.swift */,
+				75B579752800647E00079758 /* CompleteProfile_addressVC.swift */,
+				75B57977280064A700079758 /* CompleteProfile_mpinVC.swift */,
+				75B5797928006C3500079758 /* MPINkeys_VC.swift */,
+			);
+			path = "Main Storyboard Controllers";
+			sourceTree = "<group>";
+		};
+		18C4732A27FFFB16009C7E25 /* EXTENSSIONS */ = {
+			isa = PBXGroup;
+			children = (
+				75A243C52805769300E416A4 /* SemiCirleView.swift */,
+				18C4732B27FFFB16009C7E25 /* ShadowExtension.swift */,
+				18C4732C27FFFB16009C7E25 /* Segment Controller.swift */,
+				18C4734A28000FA9009C7E25 /* UIViewExtension.swift */,
+				18C4734E280010E2009C7E25 /* UIViewControllerExtension.swift */,
+				18C4734C28001029009C7E25 /* ClosureSleeve.swift */,
+				18CC7D7D2805584100F5431B /* UIApplicationExtension.swift */,
+				18C4732D27FFFB16009C7E25 /* ExtenssionViewController.swift */,
+				75074A69280AF4DD006E884C /* NavigationExtension.swift */,
+				754582212801B8F900B8A8D0 /* TextfieldExtensions.swift */,
+				75D3A36928067AAC000A50B3 /* Dashes On View Border.swift */,
+				753758EF28084A460068484D /* CellRegisterExtenssions.swift */,
+				753758F1280861E90068484D /* CollectionViewFlowLayout.swift */,
+			);
+			path = EXTENSSIONS;
+			sourceTree = "<group>";
+		};
+		18C4733328000041009C7E25 /* Abstract Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18C4733428000041009C7E25 /* AbstractTblCell.swift */,
+				18C4733528000041009C7E25 /* AbstractController.swift */,
+				18C4733628000041009C7E25 /* AbstractCollectionCell.swift */,
+			);
+			path = "Abstract Controller";
+			sourceTree = "<group>";
+		};
+		18C47339280000EB009C7E25 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				18C47337280000DB009C7E25 /* Constants.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		18C4733A2800033D009C7E25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18C4733B2800034A009C7E25 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18C4733C28000364009C7E25 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				184ADA8527FDBA0C00EC1802 /* Main.storyboard */,
+				18C4734628000B28009C7E25 /* SecondStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		18C4733D280003C9009C7E25 /* LocalStore */ = {
+			isa = PBXGroup;
+			children = (
+				18C4733E280003E4009C7E25 /* LocalStore.swift */,
+			);
+			path = LocalStore;
+			sourceTree = "<group>";
+		};
+		18C4734028000542009C7E25 /* Complete Kyc */ = {
+			isa = PBXGroup;
+			children = (
+				18C4734128000542009C7E25 /* CompleteKYCView.swift */,
+				18C4734228000542009C7E25 /* CompleteKYCView.xib */,
+				750C8C13280D65E500422DD9 /* SkipKYCView.swift */,
+				750C8C15280D660500422DD9 /* SkipKYCView.xib */,
+				7597EDC0280E5BC1006EF55F /* PaymentSucessPopup.swift */,
+				180E4C4D28115F000000047D /* PaymentSucessPopup.xib */,
+				7597EDC2280E5BCD006EF55F /* PaymentSucessPopup7.xib */,
+				75E88464280DAAA8002ED4E1 /* ButtonView.swift */,
+				75E88466280DAACB002ED4E1 /* ButtonView.xib */,
+			);
+			path = "Complete Kyc";
+			sourceTree = "<group>";
+		};
+		18C4734328000908009C7E25 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				18C4734428000908009C7E25 /* WebServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		18C4734528000A74009C7E25 /* PopupViews */ = {
+			isa = PBXGroup;
+			children = (
+				18C4734028000542009C7E25 /* Complete Kyc */,
+			);
+			path = PopupViews;
+			sourceTree = "<group>";
+		};
+		18CC7D7F280558A300F5431B /* UITableVIewCells */ = {
+			isa = PBXGroup;
+			children = (
+				75B4A6A72807F90F00F73B0E /* FaqTableCell */,
+				75A097132809399800B91CCC /* sideMenueTableCell.swift */,
+				75A097142809399800B91CCC /* sideMenueTableCell.xib */,
+				18CC7D80280558FE00F5431B /* SendMoneyMethodTableViewCell.swift */,
+				18CC7D81280558FE00F5431B /* SendMoneyMethodTableViewCell.xib */,
+				758259972807CA2100A9ECF2 /* NotificationTableCell.swift */,
+				758259982807CA2100A9ECF2 /* NotificationTableCell.xib */,
+				7582599D2807E8B200A9ECF2 /* TransictionTableCell.swift */,
+				7582599E2807E8B200A9ECF2 /* TransictionTableCell.xib */,
+				75B4A69F2807F0CE00F73B0E /* ReciveMonewTableCell.swift */,
+				75B4A6A02807F0CE00F73B0E /* ReciveMonewTableCell.xib */,
+			);
+			path = UITableVIewCells;
+			sourceTree = "<group>";
+		};
+		752C16532805953900DDF562 /* App Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				752C16542805953900DDF562 /* Lato-Italic.ttf */,
+				752C16552805953900DDF562 /* Lato-LightItalic.ttf */,
+				752C16562805953900DDF562 /* Lato-Thin.ttf */,
+				752C16572805953900DDF562 /* Lato-Bold.ttf */,
+				752C16582805953900DDF562 /* Lato-Black.ttf */,
+				752C16592805953900DDF562 /* Lato-Regular.ttf */,
+				752C165A2805953900DDF562 /* Lato-BlackItalic.ttf */,
+				752C165B2805953900DDF562 /* OFL.txt */,
+				752C165C2805953900DDF562 /* Lato-BoldItalic.ttf */,
+				752C165D2805953900DDF562 /* Lato-Light.ttf */,
+				752C165E2805953900DDF562 /* Lato-ThinItalic.ttf */,
+			);
+			path = "App Fonts";
+			sourceTree = "<group>";
+		};
+		758ED07C2806E01D0051B1E4 /* ScanQR Send Money */ = {
+			isa = PBXGroup;
+			children = (
+				758ED07D2806E1A10051B1E4 /* SendMoneyQRScanner_VC.swift */,
+			);
+			path = "ScanQR Send Money";
+			sourceTree = "<group>";
+		};
+		75A097122809272700B91CCC /* SideMenue Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75A0970A280914EA00B91CCC /* SideMenue_VC.swift */,
+				7582599B2807E7ED00A9ECF2 /* TransactionHistory_VC.swift */,
+				758ED07F2806E9EC0051B1E4 /* ReferandEarn_VC.swift */,
+				758259932807C7E700A9ECF2 /* Settings_VC.swift */,
+				75B4A6A42807F8C200F73B0E /* FAQViewController.swift */,
+				758ED0812806EB5B0051B1E4 /* Rateing_VC.swift */,
+			);
+			path = "SideMenue Controllers";
+			sourceTree = "<group>";
+		};
+		75A097172809412100B91CCC /* MasterCard */ = {
+			isa = PBXGroup;
+			children = (
+				7599761E2806ADFF001E5180 /* MasterCard_VC.swift */,
+				75A097182809419A00B91CCC /* ConfirmAddress_VC.swift */,
+			);
+			path = MasterCard;
+			sourceTree = "<group>";
+		};
+		75A6CB1628059F9700B57277 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75A6CB1B2805A01D00B57277 /* Dashboard CollectionViewCells */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		75A6CB1B2805A01D00B57277 /* Dashboard CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				75A6CB212805A0BD00B57277 /* MyApps Celll */,
+				75A6CB202805A09F00B57277 /* Specials */,
+			);
+			path = "Dashboard CollectionViewCells";
+			sourceTree = "<group>";
+		};
+		75A6CB202805A09F00B57277 /* Specials */ = {
+			isa = PBXGroup;
+			children = (
+				75A6CB1C2805A09100B57277 /* SpecialsCollectionViewCell.swift */,
+				75A6CB1D2805A09100B57277 /* SpecialsCollectionViewCell.xib */,
+			);
+			path = Specials;
+			sourceTree = "<group>";
+		};
+		75A6CB212805A0BD00B57277 /* MyApps Celll */ = {
+			isa = PBXGroup;
+			children = (
+				75A6CB172805A01800B57277 /* MyappsCollectonCell.swift */,
+				75A6CB182805A01800B57277 /* MyappsCollectonCell.xib */,
+			);
+			path = "MyApps Celll";
+			sourceTree = "<group>";
+		};
+		75ACA3D62806C295005D5C98 /* OtherWallet Send Money */ = {
+			isa = PBXGroup;
+			children = (
+				75ACA3D72806CB87005D5C98 /* OtherWaletMobileNumber_VC.swift */,
+				75ACA3D92806CE06005D5C98 /* OtherWalletSellectedContact_VC.swift */,
+				75ACA3D42806C284005D5C98 /* OtherWalletSendMoneyTo_EnterAmount_VC.swift */,
+				75C7CE80280FAF9500A310D0 /* ContactFeching.swift */,
+			);
+			path = "OtherWallet Send Money";
+			sourceTree = "<group>";
+		};
+		75ACA3DB2806CFB7005D5C98 /* Domestic Bank MoneySend */ = {
+			isa = PBXGroup;
+			children = (
+				7561116C2806962700E01D96 /* DomesticBankSendingMoney_VC.swift */,
+				75ACA3DC2806D0F0005D5C98 /* DomesticMPIN_VC.swift */,
+			);
+			path = "Domestic Bank MoneySend";
+			sourceTree = "<group>";
+		};
+		75B4A6A72807F90F00F73B0E /* FaqTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				75B4A6AF2808065100F73B0E /* FaqTableViewCell.swift */,
+				75B4A6AD2808064100F73B0E /* FaqTableViewCell.xib */,
+			);
+			path = FaqTableCell;
+			sourceTree = "<group>";
+		};
+		75C1000828016672003AF150 /* Tutorial_VC */ = {
+			isa = PBXGroup;
+			children = (
+				7585AA1B2801867000E868C9 /* languageSelection_VC.swift */,
+				B323FE792803EE8E006CF0E5 /* TutorialCollection_VC.swift */,
+				75C62BF028053EEC00788507 /* Tutorial Collection Cell */,
+			);
+			path = Tutorial_VC;
+			sourceTree = "<group>";
+		};
+		75C62BF028053EEC00788507 /* Tutorial Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B323FE7D2803EF60006CF0E5 /* TutorialCollectionViewCell.xib */,
+				B323FE7B2803EF58006CF0E5 /* TutorialCollectionViewCell.swift */,
+			);
+			path = "Tutorial Collection Cell";
+			sourceTree = "<group>";
+		};
+		75C62BF328053F8000788507 /* Second StoryBoard Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75C6981A2809594100C689A5 /* DashBoard */,
+				75A097172809412100B91CCC /* MasterCard */,
+				75A097122809272700B91CCC /* SideMenue Controllers */,
+				75C69819280958F100C689A5 /* MoneySend Methods */,
+				75ACA3D62806C295005D5C98 /* OtherWallet Send Money */,
+				75ACA3DB2806CFB7005D5C98 /* Domestic Bank MoneySend */,
+				75D3A368280674ED000A50B3 /* Remittance Send Money */,
+				758ED07C2806E01D0051B1E4 /* ScanQR Send Money */,
+			);
+			path = "Second StoryBoard Controllers";
+			sourceTree = "<group>";
+		};
+		75C69819280958F100C689A5 /* MoneySend Methods */ = {
+			isa = PBXGroup;
+			children = (
+				18CC7D782805564100F5431B /* SendMoneyMethodsViewController.swift */,
+			);
+			path = "MoneySend Methods";
+			sourceTree = "<group>";
+		};
+		75C6981A2809594100C689A5 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18C4734828000BC7009C7E25 /* DashboardViewController.swift */,
+				75A6CB282805B1CA00B57277 /* RecivedMoneyMyVallet_Vc.swift */,
+				75EC7A272806821500756BD5 /* UpdateKYC_VC.swift */,
+				7599761C2806ABB6001E5180 /* AddSelfie_VC.swift */,
+				758259912807C7CE00A9ECF2 /* ForgotMPIN_VC.swift */,
+				75A6CB262805B14C00B57277 /* MyVallet_VC.swift */,
+				758259952807C8FE00A9ECF2 /* Notifications_VC.swift */,
+				75A09710280924BE00B91CCC /* MoneyRecivedDone_VC.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		75D3A368280674ED000A50B3 /* Remittance Send Money */ = {
+			isa = PBXGroup;
+			children = (
+				75D3A36228067450000A50B3 /* SendMoneyToDetails_VC.swift */,
+				75ACA3DE2806D50E005D5C98 /* SendingMoneyReciversDetailVC.swift */,
+				75D3A364280674B8000A50B3 /* SendMoneyAmmount_VC.swift */,
+				75D3A366280674DC000A50B3 /* SendAmountMpin_VC.swift */,
+			);
+			path = "Remittance Send Money";
+			sourceTree = "<group>";
+		};
+		9C779E01C8FD585A773DD18C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF57A9B60248757C8F4296 /* Pods-TruliPay.debug.xcconfig */,
+				748D1D17266AADA39C6062DD /* Pods-TruliPay.release.xcconfig */,
+				C76673DAF8589F8F79A88EAF /* Pods-TruliPay-TruliPayUITests.debug.xcconfig */,
+				C74FF8C7429FBD9C7AF2920B /* Pods-TruliPay-TruliPayUITests.release.xcconfig */,
+				A5E4882E3AA7D6DF8CFA6690 /* Pods-TruliPayTests.debug.xcconfig */,
+				F3E782E1665803F0093844D7 /* Pods-TruliPayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F88EB9CFC0983ED1DEFE6613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E95C278D520381BB4FF91DB8 /* Pods_TruliPay.framework */,
+				73EFC93F7FF649720976218D /* Pods_TruliPay_TruliPayUITests.framework */,
+				C89AFC7A86236CCA5152BDE1 /* Pods_TruliPayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184ADA7B27FDBA0C00EC1802 /* TruliPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ADAA627FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPay" */;
+			buildPhases = (
+				D9E2DE47E3A25ECC814D902A /* [CP] Check Pods Manifest.lock */,
+				184ADA7827FDBA0C00EC1802 /* Sources */,
+				184ADA7927FDBA0C00EC1802 /* Frameworks */,
+				184ADA7A27FDBA0C00EC1802 /* Resources */,
+				AF593644137DC5AD1347C47B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruliPay;
+			productName = TruliPay;
+			productReference = 184ADA7C27FDBA0C00EC1802 /* TruliPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184ADA9127FDBA0F00EC1802 /* TruliPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ADAA927FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPayTests" */;
+			buildPhases = (
+				C3695374994FE21D82640790 /* [CP] Check Pods Manifest.lock */,
+				184ADA8E27FDBA0F00EC1802 /* Sources */,
+				184ADA8F27FDBA0F00EC1802 /* Frameworks */,
+				184ADA9027FDBA0F00EC1802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184ADA9427FDBA0F00EC1802 /* PBXTargetDependency */,
+			);
+			name = TruliPayTests;
+			productName = TruliPayTests;
+			productReference = 184ADA9227FDBA0F00EC1802 /* TruliPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184ADA9B27FDBA0F00EC1802 /* TruliPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ADAAC27FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPayUITests" */;
+			buildPhases = (
+				0B26688B5AD3B3D00B5932B1 /* [CP] Check Pods Manifest.lock */,
+				184ADA9827FDBA0F00EC1802 /* Sources */,
+				184ADA9927FDBA0F00EC1802 /* Frameworks */,
+				184ADA9A27FDBA0F00EC1802 /* Resources */,
+				F615205DD6223AD4F35795D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184ADA9E27FDBA0F00EC1802 /* PBXTargetDependency */,
+			);
+			name = TruliPayUITests;
+			productName = TruliPayUITests;
+			productReference = 184ADA9C27FDBA0F00EC1802 /* TruliPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184ADA7427FDBA0C00EC1802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					184ADA7B27FDBA0C00EC1802 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					184ADA9127FDBA0F00EC1802 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 184ADA7B27FDBA0C00EC1802;
+					};
+					184ADA9B27FDBA0F00EC1802 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 184ADA7B27FDBA0C00EC1802;
+					};
+				};
+			};
+			buildConfigurationList = 184ADA7727FDBA0C00EC1802 /* Build configuration list for PBXProject "TruliPay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184ADA7327FDBA0C00EC1802;
+			productRefGroup = 184ADA7D27FDBA0C00EC1802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184ADA7B27FDBA0C00EC1802 /* TruliPay */,
+				184ADA9127FDBA0F00EC1802 /* TruliPayTests */,
+				184ADA9B27FDBA0F00EC1802 /* TruliPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184ADA7A27FDBA0C00EC1802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7597EDC3280E5BCD006EF55F /* PaymentSucessPopup7.xib in Resources */,
+				752C16662805953900DDF562 /* OFL.txt in Resources */,
+				184ADA8C27FDBA0F00EC1802 /* LaunchScreen.storyboard in Resources */,
+				752C16622805953900DDF562 /* Lato-Bold.ttf in Resources */,
+				752C16612805953900DDF562 /* Lato-Thin.ttf in Resources */,
+				752C165F2805953900DDF562 /* Lato-Italic.ttf in Resources */,
+				7582599A2807CA2100A9ECF2 /* NotificationTableCell.xib in Resources */,
+				75A6CB1A2805A01800B57277 /* MyappsCollectonCell.xib in Resources */,
+				184ADA8927FDBA0F00EC1802 /* Assets.xcassets in Resources */,
+				752C16652805953900DDF562 /* Lato-BlackItalic.ttf in Resources */,
+				75B4A6A22807F0CE00F73B0E /* ReciveMonewTableCell.xib in Resources */,
+				752C16602805953900DDF562 /* Lato-LightItalic.ttf in Resources */,
+				752C16632805953900DDF562 /* Lato-Black.ttf in Resources */,
+				752C16672805953900DDF562 /* Lato-BoldItalic.ttf in Resources */,
+				75A6CB1F2805A09100B57277 /* SpecialsCollectionViewCell.xib in Resources */,
+				750C8C12280D48BC00422DD9 /* CompleteKYCView.xib in Resources */,
+				75A097162809399800B91CCC /* sideMenueTableCell.xib in Resources */,
+				752C16642805953900DDF562 /* Lato-Regular.ttf in Resources */,
+				18CC7D83280558FE00F5431B /* SendMoneyMethodTableViewCell.xib in Resources */,
+				184ADA8727FDBA0C00EC1802 /* Main.storyboard in Resources */,
+				18C4734728000B28009C7E25 /* SecondStoryboard.storyboard in Resources */,
+				758259A02807E8B300A9ECF2 /* TransictionTableCell.xib in Resources */,
+				750C8C16280D660500422DD9 /* SkipKYCView.xib in Resources */,
+				B323FE7E2803EF60006CF0E5 /* TutorialCollectionViewCell.xib in Resources */,
+				75B4A6AE2808064100F73B0E /* FaqTableViewCell.xib in Resources */,
+				75E88467280DAACB002ED4E1 /* ButtonView.xib in Resources */,
+				752C16682805953900DDF562 /* Lato-Light.ttf in Resources */,
+				180E4C4E28115F010000047D /* PaymentSucessPopup.xib in Resources */,
+				752C16692805953900DDF562 /* Lato-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA9027FDBA0F00EC1802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA9A27FDBA0F00EC1802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B26688B5AD3B3D00B5932B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruliPay-TruliPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF593644137DC5AD1347C47B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruliPay/Pods-TruliPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruliPay/Pods-TruliPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruliPay/Pods-TruliPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3695374994FE21D82640790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruliPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E2DE47E3A25ECC814D902A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruliPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F615205DD6223AD4F35795D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruliPay-TruliPayUITests/Pods-TruliPay-TruliPayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruliPay-TruliPayUITests/Pods-TruliPay-TruliPayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruliPay-TruliPayUITests/Pods-TruliPay-TruliPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184ADA7827FDBA0C00EC1802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A097152809399800B91CCC /* sideMenueTableCell.swift in Sources */,
+				753758F2280861E90068484D /* CollectionViewFlowLayout.swift in Sources */,
+				18C4732727FFFAFE009C7E25 /* MVC_VC.swift in Sources */,
+				75D3A367280674DC000A50B3 /* SendAmountMpin_VC.swift in Sources */,
+				754582222801B8F900B8A8D0 /* TextfieldExtensions.swift in Sources */,
+				18C47338280000DB009C7E25 /* Constants.swift in Sources */,
+				75ACA3DD2806D0F0005D5C98 /* DomesticMPIN_VC.swift in Sources */,
+				7582599F2807E8B300A9ECF2 /* TransictionTableCell.swift in Sources */,
+				75ACA3D52806C284005D5C98 /* OtherWalletSendMoneyTo_EnterAmount_VC.swift in Sources */,
+				758259962807C8FE00A9ECF2 /* Notifications_VC.swift in Sources */,
+				75A6CB272805B14C00B57277 /* MyVallet_VC.swift in Sources */,
+				75A097192809419A00B91CCC /* ConfirmAddress_VC.swift in Sources */,
+				750C8C14280D65E500422DD9 /* SkipKYCView.swift in Sources */,
+				75ACA3D82806CB87005D5C98 /* OtherWaletMobileNumber_VC.swift in Sources */,
+				18C4732827FFFAFE009C7E25 /* CompleteProfile_VC.swift in Sources */,
+				758259942807C7E700A9ECF2 /* Settings_VC.swift in Sources */,
+				758ED0822806EB5B0051B1E4 /* Rateing_VC.swift in Sources */,
+				7597EDC1280E5BC1006EF55F /* PaymentSucessPopup.swift in Sources */,
+				B323FE7A2803EE8E006CF0E5 /* TutorialCollection_VC.swift in Sources */,
+				184ADA8427FDBA0C00EC1802 /* ViewController.swift in Sources */,
+				75ACA3DF2806D50E005D5C98 /* SendingMoneyReciversDetailVC.swift in Sources */,
+				758ED0802806E9EC0051B1E4 /* ReferandEarn_VC.swift in Sources */,
+				75A243C62805769300E416A4 /* SemiCirleView.swift in Sources */,
+				75A09711280924BE00B91CCC /* MoneyRecivedDone_VC.swift in Sources */,
+				18C4734F280010E2009C7E25 /* UIViewControllerExtension.swift in Sources */,
+				75B4A6A12807F0CE00F73B0E /* ReciveMonewTableCell.swift in Sources */,
+				18C4734B28000FA9009C7E25 /* UIViewExtension.swift in Sources */,
+				18C4732E27FFFB16009C7E25 /* ShadowExtension.swift in Sources */,
+				758259992807CA2100A9ECF2 /* NotificationTableCell.swift in Sources */,
+				18CC7D792805564100F5431B /* SendMoneyMethodsViewController.swift in Sources */,
+				18CC7D82280558FE00F5431B /* SendMoneyMethodTableViewCell.swift in Sources */,
+				75074A6A280AF4DD006E884C /* NavigationExtension.swift in Sources */,
+				75EC7A282806821500756BD5 /* UpdateKYC_VC.swift in Sources */,
+				18CC7D7C280557E600F5431B /* AbstractCollectionCell.swift in Sources */,
+				18CC7D7E2805584100F5431B /* UIApplicationExtension.swift in Sources */,
+				753758F028084A460068484D /* CellRegisterExtenssions.swift in Sources */,
+				184ADA8027FDBA0C00EC1802 /* AppDelegate.swift in Sources */,
+				7599761D2806ABB6001E5180 /* AddSelfie_VC.swift in Sources */,
+				75C7CE81280FAF9500A310D0 /* ContactFeching.swift in Sources */,
+				18C4732627FFFAFE009C7E25 /* Login_VC.swift in Sources */,
+				75E88465280DAAA8002ED4E1 /* ButtonView.swift in Sources */,
+				75B4A6B02808065100F73B0E /* FaqTableViewCell.swift in Sources */,
+				75A0970B280914EA00B91CCC /* SideMenue_VC.swift in Sources */,
+				75B4A6A52807F8C300F73B0E /* FAQViewController.swift in Sources */,
+				75A6CB192805A01800B57277 /* MyappsCollectonCell.swift in Sources */,
+				750C8C11280D48AC00422DD9 /* CompleteKYCView.swift in Sources */,
+				7582599C2807E7ED00A9ECF2 /* TransactionHistory_VC.swift in Sources */,
+				18C4734928000BC8009C7E25 /* DashboardViewController.swift in Sources */,
+				18CC7D7B280557E300F5431B /* AbstractTblCell.swift in Sources */,
+				75B579762800647E00079758 /* CompleteProfile_addressVC.swift in Sources */,
+				B323FE7C2803EF59006CF0E5 /* TutorialCollectionViewCell.swift in Sources */,
+				7585AA1C2801867000E868C9 /* languageSelection_VC.swift in Sources */,
+				751E2108280ED88900253840 /* phoneVerified_VC.swift in Sources */,
+				75D3A365280674B8000A50B3 /* SendMoneyAmmount_VC.swift in Sources */,
+				758ED07E2806E1A10051B1E4 /* SendMoneyQRScanner_VC.swift in Sources */,
+				75A6CB1E2805A09100B57277 /* SpecialsCollectionViewCell.swift in Sources */,
+				75D3A36A28067AAC000A50B3 /* Dashes On View Border.swift in Sources */,
+				75B57978280064A700079758 /* CompleteProfile_mpinVC.swift in Sources */,
+				18C4733027FFFB16009C7E25 /* ExtenssionViewController.swift in Sources */,
+				75ACA3DA2806CE06005D5C98 /* OtherWalletSellectedContact_VC.swift in Sources */,
+				75A6CB292805B1CA00B57277 /* RecivedMoneyMyVallet_Vc.swift in Sources */,
+				7561116D2806962800E01D96 /* DomesticBankSendingMoney_VC.swift in Sources */,
+				75B5797A28006C3500079758 /* MPINkeys_VC.swift in Sources */,
+				7599761F2806ADFF001E5180 /* MasterCard_VC.swift in Sources */,
+				184ADA8227FDBA0C00EC1802 /* SceneDelegate.swift in Sources */,
+				18C4732F27FFFB16009C7E25 /* Segment Controller.swift in Sources */,
+				758259922807C7CE00A9ECF2 /* ForgotMPIN_VC.swift in Sources */,
+				18C4734D28001029009C7E25 /* ClosureSleeve.swift in Sources */,
+				18C4733F280003E4009C7E25 /* LocalStore.swift in Sources */,
+				75D3A36328067450000A50B3 /* SendMoneyToDetails_VC.swift in Sources */,
+				18CC7D7A280557C700F5431B /* AbstractController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA8E27FDBA0F00EC1802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ADA9727FDBA0F00EC1802 /* TruliPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ADA9827FDBA0F00EC1802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ADAA327FDBA0F00EC1802 /* TruliPayUITestsLaunchTests.swift in Sources */,
+				184ADAA127FDBA0F00EC1802 /* TruliPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184ADA9427FDBA0F00EC1802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184ADA7B27FDBA0C00EC1802 /* TruliPay */;
+			targetProxy = 184ADA9327FDBA0F00EC1802 /* PBXContainerItemProxy */;
+		};
+		184ADA9E27FDBA0F00EC1802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184ADA7B27FDBA0C00EC1802 /* TruliPay */;
+			targetProxy = 184ADA9D27FDBA0F00EC1802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184ADA8527FDBA0C00EC1802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184ADA8627FDBA0C00EC1802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184ADA8A27FDBA0F00EC1802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184ADA8B27FDBA0F00EC1802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184ADAA427FDBA1000EC1802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184ADAA527FDBA1000EC1802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184ADAA727FDBA1000EC1802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBF57A9B60248757C8F4296 /* Pods-TruliPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TruliPay/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For Picking profile image";
+				INFOPLIST_KEY_NSContactsUsageDescription = "For transfer money by mobile number";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.TruliPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184ADAA827FDBA1000EC1802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748D1D17266AADA39C6062DD /* Pods-TruliPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TruliPay/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For Picking profile image";
+				INFOPLIST_KEY_NSContactsUsageDescription = "For transfer money by mobile number";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.TruliPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184ADAAA27FDBA1000EC1802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E4882E3AA7D6DF8CFA6690 /* Pods-TruliPayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TruliPay.TruliPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruliPay.app/TruliPay";
+			};
+			name = Debug;
+		};
+		184ADAAB27FDBA1000EC1802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E782E1665803F0093844D7 /* Pods-TruliPayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TruliPay.TruliPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruliPay.app/TruliPay";
+			};
+			name = Release;
+		};
+		184ADAAD27FDBA1000EC1802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76673DAF8589F8F79A88EAF /* Pods-TruliPay-TruliPayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TruliPay.TruliPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruliPay;
+			};
+			name = Debug;
+		};
+		184ADAAE27FDBA1000EC1802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74FF8C7429FBD9C7AF2920B /* Pods-TruliPay-TruliPayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9422ZUYF32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.TruliPay.TruliPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruliPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184ADA7727FDBA0C00EC1802 /* Build configuration list for PBXProject "TruliPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ADAA427FDBA1000EC1802 /* Debug */,
+				184ADAA527FDBA1000EC1802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ADAA627FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ADAA727FDBA1000EC1802 /* Debug */,
+				184ADAA827FDBA1000EC1802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ADAA927FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ADAAA27FDBA1000EC1802 /* Debug */,
+				184ADAAB27FDBA1000EC1802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ADAAC27FDBA1000EC1802 /* Build configuration list for PBXNativeTarget "TruliPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ADAAD27FDBA1000EC1802 /* Debug */,
+				184ADAAE27FDBA1000EC1802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184ADA7427FDBA0C00EC1802 /* Project object */;
+}

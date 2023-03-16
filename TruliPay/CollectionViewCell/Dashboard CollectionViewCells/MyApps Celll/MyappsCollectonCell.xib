@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyappsCollectonCell" id="gTV-IL-0wX" customClass="MyappsCollectonCell" customModule="TruliPay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="143"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="143"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aog-Vt-tLE" userLabel="baseView">
+                        <rect key="frame" x="2" y="5" width="235" height="133"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J93-0e-t1l">
+                                <rect key="frame" x="0.0" y="0.0" width="235" height="133"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my_wallet_" translatesAutoresizingMaskIntoConstraints="NO" id="les-nC-JcR">
+                                        <rect key="frame" x="0.0" y="40" width="235" height="47"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWY-Qw-ohR">
+                                        <rect key="frame" x="5" y="89" width="225" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="les-nC-JcR" firstAttribute="height" secondItem="J93-0e-t1l" secondAttribute="height" multiplier="0.355564" id="D3I-6u-pNW"/>
+                                    <constraint firstItem="gWY-Qw-ohR" firstAttribute="leading" secondItem="J93-0e-t1l" secondAttribute="leading" constant="5" id="TH7-c6-h6n"/>
+                                    <constraint firstAttribute="trailing" secondItem="gWY-Qw-ohR" secondAttribute="trailing" constant="5" id="a3g-dw-b17"/>
+                                    <constraint firstItem="gWY-Qw-ohR" firstAttribute="top" secondItem="les-nC-JcR" secondAttribute="bottom" constant="2" id="cYC-Q4-Dan"/>
+                                    <constraint firstAttribute="trailing" secondItem="les-nC-JcR" secondAttribute="trailing" id="f4y-RR-9Jz"/>
+                                    <constraint firstItem="les-nC-JcR" firstAttribute="leading" secondItem="J93-0e-t1l" secondAttribute="leading" id="qut-6I-INQ"/>
+                                    <constraint firstItem="gWY-Qw-ohR" firstAttribute="centerY" secondItem="J93-0e-t1l" secondAttribute="centerY" multiplier="1.45" id="wI4-ZK-Imk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadious">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="J93-0e-t1l" secondAttribute="trailing" id="86M-8U-nKa"/>
+                            <constraint firstItem="J93-0e-t1l" firstAttribute="leading" secondItem="aog-Vt-tLE" secondAttribute="leading" id="Xrl-Oy-489"/>
+                            <constraint firstItem="J93-0e-t1l" firstAttribute="top" secondItem="aog-Vt-tLE" secondAttribute="top" id="Z2n-bT-JnQ"/>
+                            <constraint firstAttribute="bottom" secondItem="J93-0e-t1l" secondAttribute="bottom" id="yy9-4u-gws"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" systemColor="systemGray5Color"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadious">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="aog-Vt-tLE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="2Oq-gi-1ql"/>
+                <constraint firstAttribute="trailing" secondItem="aog-Vt-tLE" secondAttribute="trailing" constant="2" id="KCr-E6-YVV"/>
+                <constraint firstItem="aog-Vt-tLE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="PPK-Sr-MA8"/>
+                <constraint firstAttribute="bottom" secondItem="aog-Vt-tLE" secondAttribute="bottom" constant="5" id="c29-b1-6kU"/>
+            </constraints>
+            <size key="customSize" width="239" height="143"/>
+            <connections>
+                <outlet property="iconImage" destination="les-nC-JcR" id="Lcn-qN-7v5"/>
+                <outlet property="titleLbl" destination="gWY-Qw-ohR" id="OV1-G5-Tc1"/>
+            </connections>
+            <point key="canvasLocation" x="200.72463768115944" y="76.674107142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="my_wallet_" width="17.5" height="19.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

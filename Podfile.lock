@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.4)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.9)
+  - MBProgressHUD (1.2.0)
+  - MercariQRScanner (1.9.0)
+  - SideMenuSwift (2.0.9)
+  - SKCountryPicker (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - iOSDropDown
+  - IQKeyboardManagerSwift (~> 6.5)
+  - MBProgressHUD
+  - MercariQRScanner (~> 1.9)
+  - SideMenuSwift
+  - SKCountryPicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - MercariQRScanner
+    - SideMenuSwift
+    - SKCountryPicker
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
+  SideMenuSwift: 39f1922e225da4aaa8b16591037a929defe960c9
+  SKCountryPicker: 9d4921503cad7224a14a150802bb71228adbd90f
+
+PODFILE CHECKSUM: 150711aafa5995492588df1b80722cc14890a3a7
+
+COCOAPODS: 1.11.3
